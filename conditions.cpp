@@ -41,5 +41,16 @@ int main(){
 //     cout << "Please provide a valid score";
 // }
 
+// * Write a program that calculates the sum of the first N natural numbers using a loop.
+  // int n;
+  //   cout << "Please enter a positive number." << endl ;
+  //   cin >> n ;
+  //   int sum = 0;
+    
+  //       for(int i= 1; i <= n; ++i){
+  //           sum+=i;
+  //       }
+  //   cout << sum << " is the sum.";
+
     return 0;
 }
