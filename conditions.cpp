@@ -40,7 +40,7 @@ int main(){
 // else{
 //     cout << "Please provide a valid score";
 // }
-
+  // ! Question ----> 3
 // * Write a program that calculates the sum of the first N natural numbers using a loop.
   // int n;
   //   cout << "Please enter a positive number." << endl ;
@@ -51,6 +51,17 @@ int main(){
   //           sum+=i;
   //       }
   //   cout << sum << " is the sum.";
+
+    // ! Question ----> 4
+// * Write a program that calculates the factorial of a given number using a loop.
+  // int num;
+  //   cout << "Please provide a positive number" << endl;
+  //   cin >> num;
+  //   int fact = 1;
+  //   for(int i = 1; i <= num; ++i){
+  //       fact *= i;
+  //   }
+  //   cout << "The Factorial of given number is " << fact ;
 
     return 0;
 }
