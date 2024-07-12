@@ -22,5 +22,20 @@ int main() {
     // if(n==i){
     //     cout << n << endl << "It is a Prime." << endl;
     // }
+    // * Print all the prime numbers between a and b.
+    int a, b;
+    cin >> a >> b;
+    for(int num =a; num <= b; num++){
+        int i;
+        for(i=2; i <= num; i++){
+            if(num%i ==0){
+                break;
+            }
+        }
+        if(num==i){
+            cout << i << endl;
+        }
+    }
+
     return 0;
 }
